@@ -1,8 +1,5 @@
 # This is a sample Python script.
-
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
+input("WELCOME TO THE KCG COLLEGE CROREPATHY GAME....TYPE (OK) TO CONTINUE....   ")
 
 def new_game():
 
@@ -50,8 +47,8 @@ def display_score(correct_guesses, guesses):
         print(i, end=" ")
     print()
 
-    score = int((correct_guesses/len(questions))*100)
-    print("Your score is: "+str(score)+"%"" CONGRATULATION")
+    score = int((correct_guesses/len(questions))*10000000)
+    print("Your WINNING AMOUNT is: "+str(score)+" RUPPES  OUT OF 100000 "" CONGRATULATIONS  ENJOY")
 
 # -------------------------
 def play_again():
@@ -65,7 +62,7 @@ def play_again():
         return False
 # -------------------------
 
-print("WELCOME TO THE QUIZE GAME")
+
 questions = {
  "Who Is The Faculty for B10 PYTHON PROGRAMMING COURSE ?: ": "C",
  "What year was KCG COLLEGE STARTED ?: ": "A",
